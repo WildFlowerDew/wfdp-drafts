@@ -1,0 +1,18 @@
+language: minimal
+sudo: enabled
+install: true
+branches:
+  only:
+  - gh-pages
+  - "/.*/"
+script: bash ./build.sh
+notifications:
+  email:
+    recipients:
+    - me@wildflowerdewpatch.net
+    on_success: never
+    on_failure: always
+env:
+  global:
+  - gu=WildFlowerDew
+  - secure: sZMiHnW01aVfjx3pYqE4p9t8cN3EiA1/BmjgNMMNfizedXuE4TH15eyMoSnlz3ARyrKf9Wn0BloJVma1rRNjT6/cV9NjRQ3JP4qCq2WvA0l0XXPEc7Go2U4k1GpXE2HgUSZqT0NjPOqeRAMIcHD9wCytwyUjp0+g9yFYl0i12INNVA6F3a2IcCDpRG9PgVEg363nFliIquZqyZbryQ+3TeFEdw7vGEHV+YDK6Y8RJTLOV/SaohMQ/hh+3Rul7LtjGp4wN+xQkYm5PDIRSM/STR4+nj+tUqPxV59uXUzpAEzK3ezxvIo1ouzvW3cV3azODPSp8JBHSagXw35EJgecuvlRbWNL/qRYtPB24m2VkGyitYnikoFgDCqRMCHkFShoeqrvY+b3kmJuBPCNQsIC8JKpwxVQsQPXk44uU2gp0Dd1KjgLWvOoN9tb1tZARomoP3IvxRZJ26y8zH4cX01hYf6BQuDP6QUc+Bveflg3wQWT/s8fyD5yziGRNd8gQHCD8p24p2bRfZoYfUMaXfJ1zBxhHRZb3jf0ax4xsd7TxKjT14n/yCbQ+DXVcK7M8N31HuiD4+fhKmPlpOl8Eh6v3TobCnASi2+kZGxGy6adMhmboe0jGqPH1V39BQBqVPd+ruV796IdX6HhA1RK9ZcecDu5vVaQDQBP0M18Q/btxVI=
