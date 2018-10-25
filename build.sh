@@ -43,7 +43,7 @@ commit_website_files() {
 }
 
 upload_files() {
-  git remote add origin-build-master "https://${GH_TOKEN}@github.com/$gu/wildflowerdew.github.io.git" > /dev/null 2>&1
+  git remote add origin-build-master "https://${GT}@github.com/$GU/wfdp-drafts" > /dev/null 2>&1
   git push --quiet --set-upstream origin-build-master master
 }
 
@@ -51,6 +51,6 @@ echo "Building Website Drafts"
 setup_git
 get_data_files
 gen_drafts
-#commit_website_files
-#upload_files
+commit_website_files
+upload_files
 echo "Done."
