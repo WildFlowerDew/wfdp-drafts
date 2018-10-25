@@ -26,6 +26,7 @@ get_data_files() {
 }
 
 gen_drafts() {
+  mkdir -p $DIR/content
   FILES=$DIR/content/*.txt
   echo "Processing new draft posts..."
   shopt -s nullglob
