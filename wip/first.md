@@ -119,18 +119,18 @@ Cras congue nunc mi, varius sagittis mi facilisis in. Class aptent taciti socios
 
 Cras congue nunc mi, varius sagittis mi facilisis in. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi ac eros ut quam rutrum ultrices vulputate vel ligula. Nunc eget tempor tellus. Vestibulum molestie, tellus vitae porta facilisis, massa mauris varius justo, ut consequat enim felis sit amet diam. Curabitur justo dui, malesuada ac justo vitae, molestie luctus nisi. Fusce luctus in velit vel condimentum. Nam turpis nisl, consequat in velit non, bibendum suscipit sapien.
 
-{% include card.html deck="rws1910" card="s6" position="hello world" index="1" constrain="true" %}
+{% include card.html deck="aquatic" card="s6" position="hello world" index="1" constrain="true" %}
 
 Cras congue nunc mi, varius sagittis mi facilisis in. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi ac eros ut quam rutrum ultrices vulputate vel ligula. Nunc eget tempor tellus. Vestibulum molestie, tellus vitae porta facilisis, massa mauris varius justo, ut consequat enim felis sit amet diam. Curabitur justo dui, malesuada ac justo vitae, molestie luctus nisi. Fusce luctus in velit vel condimentum. Nam turpis nisl, consequat in velit non, bibendum suscipit sapien.
 
-{% include card-img.html deck="rws1910" card="s6" index="1" %}
+{% include card-img.html deck="aquatic" card="s6" index="1" %}
 
 Cras congue nunc mi, varius sagittis mi facilisis in. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi ac eros ut quam rutrum ultrices vulputate vel ligula. Nunc eget tempor tellus. Vestibulum molestie, tellus vitae porta facilisis, massa mauris varius justo, ut consequat enim felis sit amet diam. Curabitur justo dui, malesuada ac justo vitae, molestie luctus nisi. Fusce luctus in velit vel condimentum. Nam turpis nisl, consequat in velit non, bibendum suscipit sapien.
 
-{% include spread-three-row.html deck="rws1910" card1="s1" card2="s2" card3="s3" index="1" %}
+{% include spread-three-row.html deck="aquatic" card1="s1" card2="s2" card3="s3" index="1" %}
 
 Cras congue nunc mi, varius sagittis mi facilisis in. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi ac eros ut quam rutrum ultrices vulputate vel ligula. Nunc eget tempor tellus. Vestibulum molestie, tellus vitae porta facilisis, massa mauris varius justo, ut consequat enim felis sit amet diam. Curabitur justo dui, malesuada ac justo vitae, molestie luctus nisi. Fusce luctus in velit vel condimentum. Nam turpis nisl, consequat in velit non, bibendum suscipit sapien.
 
-{% include spread-ten-pyramid.html deck="rws1910" card1="s1"  card2="s2" card3="s3" card4="s4" card5="s5" card6="s6" card7="s7" card8="s8" card9="s9" card10="s10"  index="1" %}
+{% include spread-ten-pyramid.html deck="aquatic" card1="s1"  card2="s2" card3="s3" card4="s4" card5="s5" card6="s6" card7="s7" card8="s8" card9="s9" card10="s10"  index="1" %}
 
 Cras congue nunc mi, varius sagittis mi facilisis in. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi ac eros ut quam rutrum ultrices vulputate vel ligula. Nunc eget tempor tellus. Vestibulum molestie, tellus vitae porta facilisis, massa mauris varius justo, ut consequat enim felis sit amet diam. Curabitur justo dui, malesuada ac justo vitae, molestie luctus nisi. Fusce luctus in velit vel condimentum. Nam turpis nisl, consequat in velit non, bibendum suscipit sapien.
