@@ -18,4 +18,4 @@ hddhhdidi {% include amp-youtube.html id="4224ds24423" %} djdjjjjl.
 hddhhdidi {% include card.html deck="rws1910" card="s6" position="hello world" index="1" constrain="true" %} djdjjjjl.
 hddhhdidi {% include fig.html alt="c" src="rws1910,s6" slug="c" %}  djdjjjjl.
 hddhhdidi {% include card-img.html deck="rws1910" card="s6" index="1" %} djdjjjjl.
-hddhhdidi {% include spread-ten-pyramid.html deck="rws1910" card1="s1" card2="s2" card3="s3" card4="s4" card5="s5" card6="s6" card7="s7" card8="s8" card9="s9" card10="s10"  index="1" %} djdjjjjl.
+hddhhdidi {% include spread-ten-pyramid.html deck="rws1910" card1="s1" cards="s2,s3,s4,s5,s6,s7,s8,s9,s10" index="1" %} djdjjjjl.
