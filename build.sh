@@ -26,8 +26,8 @@ get_data_files() {
 }
 
 gen_drafts() {
-  mkdir -p $DIR/content
-  FILES=$DIR/content/*.txt
+  mkdir -p $DIR/wip
+  FILES=$DIR/wip/*.txt
   echo "Processing new draft posts..."
   shopt -s nullglob
   for post in $FILES
@@ -37,9 +37,21 @@ gen_drafts() {
   done
 }
 
+preprocess() {
+  mkdir -p $DIR/wip
+  FILES=$DIR/*.p.md
+  echo "Processing new draft posts..."
+  shopt -s nullglob
+  for post in $FILES
+  do
+    echo "$post"
+    cat "$post" | sed -E 's/\!\[fbc\]\((.*)\)/{% include amp-fb-comment-embed.html url="\1" %}/g' | sed -E 's/\!\[bo\]\((.*)\)/{% include amp-beopinion.html id="\1" %}/g' | sed -E 's/\!\[fbp\]\((.*)\)/{% include amp-fb-post-embed.html url="\1" %}/g' | sed -E 's/\!\[(.*)\]\[(.*)\]\[(.*)\]\((.*)\)\((.*)\)/{% include fig.html alt="\1" desc="\2" credit-name="\3" src="\4" credit-src="\5" slug="\1" %} /g' | sed -E 's/\!\[(.*)\]\[(.*)\]\((.*)\)/{% include fig.html alt="\1" desc="\2" src="\3" slug="\1" %} /g' | sed -E 's/\!\[(.*)\]\((.*)\)/{% include fig.html alt="\1" src="\2" slug="\1" %} /g' | cat
+  done
+}
+
 commit_website_files() {
   git checkout master
-  git add content img
+  git add content img wip
   git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
 }
 
@@ -49,9 +61,10 @@ upload_files() {
 }
 
 echo "Building Website Drafts"
-setup_git
-get_data_files
-gen_drafts
-commit_website_files
-upload_files
+#setup_git
+#get_data_files
+#gen_drafts
+#commit_website_files
+#upload_files
+preprocess
 echo "Done."
