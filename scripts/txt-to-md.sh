@@ -3,7 +3,7 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 cd $DIR
 cd ..
-root=$PWD/content
+root=$PWD/wip
 name=$(basename "$1" .txt)
 year="$( echo $name | cut -c7-10 )"
 month="$( echo $name | cut -c1-2 )"

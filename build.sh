@@ -50,6 +50,11 @@ preprocess() {
   done
 }
 
+testpost() {
+  mkdir -p $DIR/content
+  cp $DIR/wip/test.md $DIR/content/test.md
+}
+
 commit_website_files() {
   git checkout master
   git add content img wip
@@ -62,10 +67,11 @@ upload_files() {
 }
 
 echo "Building Website Drafts"
-#setup_git
-#get_data_files
-#gen_drafts
-#commit_website_files
-#upload_files
+setup_git
+get_data_files
+gen_drafts
 preprocess
+testpost
+commit_website_files
+upload_files
 echo "Done."
