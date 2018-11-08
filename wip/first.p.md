@@ -17,6 +17,9 @@ has_reddit_post : true
 has_instagram   : true
 has_pininterest : true
 has_youtube     : true
+is_post         : true
+tags            : [i]
+categories      : [d2d]
 ---
 # Images
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam neque tortor, imperdiet sed mi lobortis, ullamcorper sodales mi. Ut ac venenatis sapien. Vestibulum pharetra dapibus dolor, sed vestibulum arcu elementum eu. Nam tincidunt tristique felis. Sed egestas erat et semper dignissim. Fusce consectetur enim non est consequat pharetra sed sagittis justo. Ut gravida ligula mi, a viverra mi bibendum eu. Nulla pharetra sapien semper metus tempor vestibulum. Sed et pharetra nibh, vitae vulputate dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate tincidunt accumsan. Nullam sodales quam sit amet efficitur cursus. Nullam bibendum vel ex non lobortis. Donec maximus lorem lorem, vitae consectetur nulla dapibus eget. Curabitur elit justo, vehicula in risus a, pharetra sodales lorem. Nunc at gravida sem.
@@ -51,7 +54,7 @@ Cras congue nunc mi, varius sagittis mi facilisis in. Class aptent taciti socios
 
 Cras congue nunc mi, varius sagittis mi facilisis in. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi ac eros ut quam rutrum ultrices vulputate vel ligula. Nunc eget tempor tellus. Vestibulum molestie, tellus vitae porta facilisis, massa mauris varius justo, ut consequat enim felis sit amet diam. Curabitur justo dui, malesuada ac justo vitae, molestie luctus nisi. Fusce luctus in velit vel condimentum. Nam turpis nisl, consequat in velit non, bibendum suscipit sapien.
 
-![fbp](https://www.facebook.com/groups/1689073668046856/permalink/2227352477552303/)
+![fbp](https://www.facebook.com/KagyuSamyeDzongLondon/posts/1018583064995022)
 
 Cras congue nunc mi, varius sagittis mi facilisis in. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi ac eros ut quam rutrum ultrices vulputate vel ligula. Nunc eget tempor tellus. Vestibulum molestie, tellus vitae porta facilisis, massa mauris varius justo, ut consequat enim felis sit amet diam. Curabitur justo dui, malesuada ac justo vitae, molestie luctus nisi. Fusce luctus in velit vel condimentum. Nam turpis nisl, consequat in velit non, bibendum suscipit sapien.
 
@@ -59,7 +62,7 @@ Cras congue nunc mi, varius sagittis mi facilisis in. Class aptent taciti socios
 
 Cras congue nunc mi, varius sagittis mi facilisis in. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi ac eros ut quam rutrum ultrices vulputate vel ligula. Nunc eget tempor tellus. Vestibulum molestie, tellus vitae porta facilisis, massa mauris varius justo, ut consequat enim felis sit amet diam. Curabitur justo dui, malesuada ac justo vitae, molestie luctus nisi. Fusce luctus in velit vel condimentum. Nam turpis nisl, consequat in velit non, bibendum suscipit sapien.
 
-![fbc](https://www.facebook.com/groups/1689073668046856/permalink/2227352477552303/)
+![fbc](https://www.facebook.com/KagyuSamyeDzongLondon/posts/1018583064995022)
 
 Cras congue nunc mi, varius sagittis mi facilisis in. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi ac eros ut quam rutrum ultrices vulputate vel ligula. Nunc eget tempor tellus. Vestibulum molestie, tellus vitae porta facilisis, massa mauris varius justo, ut consequat enim felis sit amet diam. Curabitur justo dui, malesuada ac justo vitae, molestie luctus nisi. Fusce luctus in velit vel condimentum. Nam turpis nisl, consequat in velit non, bibendum suscipit sapien.
 
@@ -83,7 +86,7 @@ Cras congue nunc mi, varius sagittis mi facilisis in. Class aptent taciti socios
 
 Cras congue nunc mi, varius sagittis mi facilisis in. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi ac eros ut quam rutrum ultrices vulputate vel ligula. Nunc eget tempor tellus. Vestibulum molestie, tellus vitae porta facilisis, massa mauris varius justo, ut consequat enim felis sit amet diam. Curabitur justo dui, malesuada ac justo vitae, molestie luctus nisi. Fusce luctus in velit vel condimentum. Nam turpis nisl, consequat in velit non, bibendum suscipit sapien.
 
-![ig](https://www.instagram.com/p/Bp4xxHXBKEg/) djdjjjjl.
+![ig](Bp44s8QgiK3)
 
 Cras congue nunc mi, varius sagittis mi facilisis in. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi ac eros ut quam rutrum ultrices vulputate vel ligula. Nunc eget tempor tellus. Vestibulum molestie, tellus vitae porta facilisis, massa mauris varius justo, ut consequat enim felis sit amet diam. Curabitur justo dui, malesuada ac justo vitae, molestie luctus nisi. Fusce luctus in velit vel condimentum. Nam turpis nisl, consequat in velit non, bibendum suscipit sapien.
 
@@ -93,7 +96,7 @@ hddhhdidi :fab fa-adn: djdjjjjl.  hddhhdidi :fab fa-adn #ddd: djdjjjjl.  Cras co
 
 Cras congue nunc mi, varius sagittis mi facilisis in. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi ac eros ut quam rutrum ultrices vulputate vel ligula. Nunc eget tempor tellus. Vestibulum molestie, tellus vitae porta facilisis, massa mauris varius justo, ut consequat enim felis sit amet diam. Curabitur justo dui, malesuada ac justo vitae, molestie luctus nisi. Fusce luctus in velit vel condimentum. Nam turpis nisl, consequat in velit non, bibendum suscipit sapien.
 
-![pin](https://www.pinterest.co.uk/pin/AaKespaUS7C4snc7zqIPbdLYuZLVeIasR6spr5gnAf7CkE-sSrQ3vlM/)
+![pin](https://www.pinterest.com/pin/228065168607834583/)
 
 Cras congue nunc mi, varius sagittis mi facilisis in. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi ac eros ut quam rutrum ultrices vulputate vel ligula. Nunc eget tempor tellus. Vestibulum molestie, tellus vitae porta facilisis, massa mauris varius justo, ut consequat enim felis sit amet diam. Curabitur justo dui, malesuada ac justo vitae, molestie luctus nisi. Fusce luctus in velit vel condimentum. Nam turpis nisl, consequat in velit non, bibendum suscipit sapien.
 
