@@ -10,12 +10,13 @@ setup_git() {
 }
 
 commit_website_files() {
-  mv content/*.md site/_drafts
+  mv content/test.md site/home/test.md
+  mv content/*.md site/_posts
   cp -r img/posts/* site/img/posts/
   cd site
   git checkout master
-  git add img _drafts
-  git commit --message "Wild Flowerdew: Pushing new draft post."
+  git add img _drafts _posts home
+  git commit --message "Wild Flowerdew: Pushing new posts."
   cd ..
   rm -fr img/posts/*
 }

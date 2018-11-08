@@ -6,6 +6,7 @@ branches:
   - gh-pages
   - "/.*/"
 script: bash ./build.sh
+after_success: bash ./scripts/push.sh
 notifications:
   email:
     recipients:
